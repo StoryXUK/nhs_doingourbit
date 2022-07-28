@@ -1,309 +1,614 @@
 <!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!-->
 <html class="no-js" lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>Contact || Handst</title>
-        <meta name="description" content="The template is built for Sport Clubs, Health Clubs, Gyms, Fitness Centers, Personal Trainers and other sport">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        
-        <!-- Favicon Icon -->
-        <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
-		
-		<!-- All css here -->
-        <link rel="stylesheet" href="css/bootstrap.min.css">
-        <link rel="stylesheet" href="css/font-awesome.min.css">
-        <link rel="stylesheet" href="css/shortcode/shortcodes.css">
-        <link rel="stylesheet" href="css/slick.css">
-        <link rel="stylesheet" href="style.css">
-        <link rel="stylesheet" href="css/responsive.css">
-        <script src="js/vendor/modernizr-3.11.2.min.js"></script>
-    </head>
-    <body>
-        <!--[if lt IE 8]>
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Doing our bit is the largest free wellbeing platform for frontline workers in the UK.">
+    <meta name="fibodo" content="Built and powered by fibodo">
+
+    <title>Doing Our Bit</title>
+
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.png">
+
+    <!-- Font Awesome CSS -->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <!-- Elegant Font Icons CSS -->
+    <link rel="stylesheet" href="css/elegant-font-icons.css">
+    <!-- Elegant Line Icons CSS -->
+    <link rel="stylesheet" href="css/elegant-line-icons.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- animate CSS -->
+    <link rel="stylesheet" href="css/animate.min.css">
+    <!-- Venobox CSS -->
+    <link rel="stylesheet" href="css/venobox.css">
+    <!-- OWL-Carousel CSS -->
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="css/main.css">
+    <!-- <link rel="stylesheet" href="css/color.css"> -->
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="css/responsive.css">
+
+    <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+</head>
+
+<body data-spy="scroll" data-target="#navbar" data-offset="60">
+    <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-        
-        
-		<!-- Header Area Start -->
-		<header class="top">
-			<div class="header-area ptb-18 header-sticky">
-				<div class="container">
-					<div class="row">
-						<div class="col-lg-2">
-							<div class="logo">
-								<a href="index.html"><img src="img/logo/logo.png" alt="COFFEE" /></a>
-							</div>
-						</div>
-						<div class="col-lg-8">
-                            <div class="content-wrapper">
-                                <!-- Main Menu Start -->
-                                <div class="main-menu text-center">
-                                    <nav>
-                                        <ul>
-                                            <li><a href="index.html">Home</a></li>
-                                            <li><a href="about-us.html">About us</a></li>
-                                            <li><a href="class.html">classes</a></li>
-                                            <li><a href="gallery.html">gallery</a></li>
-                                            <li><a href="blog.html">blog</a></li>
-                                            <li><a href="contact.html">Contact</a></li>
-                                        </ul>
-                                    </nav>
-                                </div>
-                                <div class="mobile-menu d-block d-lg-none"></div>
-                                <!-- Main Menu End -->
-                            </div>
-						</div>
-						<div class="col-lg-2 d-none d-lg-block">
-						    <div class="header-contact text-end">
-						        <a class="banner-btn" data-text="contact" href="contact.html"><span>contact</span></a>
-						    </div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</header>
-		<!-- Header Area End -->
-		<!-- Banner Area Start -->
-		<section class="banner-area text-start">	
+
+    <div id='preloader'>
+        <div class='loader'>
+            <img src="img/preloader.svg" width="60" alt="">
+        </div>
+    </div><!-- Preloader -->
+
+    <header id="header" class="header_section">
+        <nav class="navbar">
             <div class="container">
-                <div class="row">
-                    <div class="col-12">
-                        <div class="banner-content-wrapper">
-                            <div class="banner-content">
-                                <h2>contact</h2>
-                                <div class="banner-breadcrumb">
-                                    <ul>
-                                        <li><a href="index.html">home </a> <i class="zmdi zmdi-chevron-right"></i></li>
-                                        <li>contact</li>
-                                    </ul>
-                                </div>
-                            </div>  
-                        </div> 
-                    </div>
+                <div class="navbar-header">
+                    <button type="button" class="nav-btn navbar-toggle collapsed" data-toggle="collapse"
+                        data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a href="index.html" class="brand logo-dark"><img src="img/logo.png" alt="Aperture"></a>
                 </div>
+                <div id="navbar" class="collapse navbar-collapse navbar-right">
+                    <ul class="nav navbar-nav nav-menu">
+                        <li class="active"><a data-scroll href="index.html">Home</a></li>
+
+
+                        <li><a data-scroll href="works.html">How It Works</a></li>
+
+                        <li><a data-scroll href="support.html">How to Support</a></li>
+                        <li><a data-scroll href="about.html">About <span
+                            class="sr-only">(current)</span></a></li>
+                        <li><a data-scroll href="partners.html">Partners</a></li>
+                        <li><a class="nav_btn" data-scroll href="partners.html">Register</a></li>
+                        <li><a class="nav_btn" data-scroll href="partners.html"> Login </a></li>
+                        <!-- <li><a data-scroll href="#feature">Features</a></li>
+                        <li><a data-scroll href="#screenshots">Partners</a></li>
+                        <li><a data-scroll href="#download">Download</a></li>
+                        <li><a data-scroll href="#testimonial">Reviews</a></li> -->
+
+
+
+
+
+                        <!-- <li><a data-scroll href="#blog">News</a></li> -->
+                    </ul>
+                </div>
+
+                <!-- <div>
+                    <a href="https://www.fit4thefight.org/nhs-members-area" class="hero_btn"
+                        class="fl-right"></i>Login</a>
+                </div> -->
             </div>
-		</section>
-		<!-- Banner Area End -->
-		<!-- Contact Area Start -->
-		<div class="contact-area pt-95">
-		    <div class="container">
-		        <div class="row">
-		            <div class="col-12">
-		                <div class="contact-form section-title text-center">
-                            <h2 class="pb-5">Contact Form</h2>
-                            <form id="contact-form" class="row" action="https://whizthemes.com/mail-php/other/mail.php">
-                                <div class="col-md-6">
-                                    <input class="mb-30" placeholder="Name" name="con_name" type="text">
-                                </div>
-                                <div class="col-md-6">
-                                    <input class="mb-30" placeholder="Email" name="con_email" type="text">
-                                </div>
-                                <div class="col-md-12">
-                                    <textarea class="mb-30" cols="30" rows="7" name="con_message" placeholder="subject"></textarea>
-                                    <button type="submit">submit</button>
-                                    <p class="form-message"></p>
-                                </div>
-                            </form>
-                        </div>
-		            </div>
-		        </div>
-		    </div>
-		</div>
-		<!-- Contact Area End -->
-        <!-- Client Area Strat -->
-        <section class="client-area pt-95 pb-50">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 offset-xl-2 offset-lg-2">
-                        <div class="section-title text-center">
-                            <h2>Our Client Say</h2>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum issss has been the industry's standard dummy text ever since the 1500s, when an unknown lorem </p>
+        </nav><!-- Navigation Bar -->
+    </header> <!-- Header -->
+
+    <section id="home" class="hero_section5 overlay">
+
+        <div class="container">
+            <div class="display-table">
+                <div class="table-cell">
+                    <div class="col-md-6">
+                        <div class="hero_content">
+                            <!-- <p>About</p> -->
+                            <h1>The vision of <span class="hero-text">Julie Davis</span> for The <span class="hero-text">NHS</span>
+                            </h1>
+                            <!-- <p>Offering guided video courses from leading teachers across fitness, yoga meditation,
+                                mental health, nutrition, personal development and sports, with new programs added every
+                                month. Our bespoke courses help people to learn new skills to live their best lives.
+                                Doing Our Bit is the largest free platform supporting the wellbeing of frontline workers
+                                in the UK.</p> -->
+                            <a href="#" class="hero_btn"><i
+                                    class="fa fa-read"></i>Login</a>
                         </div>
                     </div>
-                </div>
-                <div class="row"> 
-                    <div class="col-lg-10 offset-xl-1 offset-lg-1">
-                        <div class="row">
-                            <div class="testimonial-owl">
-                                <div class="col-12">
-                                    <div class="single-testimonial">
-                                        <i class="zmdi zmdi-quote"></i>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla non mi just. Aliquam vitae purus vel odio suscipit lobortis. Donec interdum finibus egestas. In eleifend ipsum eu lacinia congue. Vestibulum sodales, sapien aliquam </p>
-                                        <img src="img/icon/signature.png" alt="signature">
-                                        <h6>Co-Founder Of Company</h6>
-                                    </div>    
-                                </div> 
-                                <div class="col-12">
-                                    <div class="single-testimonial">
-                                        <i class="zmdi zmdi-quote"></i>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla non mi just. Aliquam vitae purus vel odio suscipit lobortis. Donec interdum finibus egestas. In eleifend ipsum eu lacinia congue. Vestibulum sodales, sapien aliquam </p>
-                                        <img src="img/icon/signature.png" alt="signature">
-                                        <h6>Co-Founder Of Company</h6>
-                                    </div>    
-                                </div> 
-                                <div class="col-12">
-                                    <div class="single-testimonial">
-                                        <i class="zmdi zmdi-quote"></i>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla non mi just. Aliquam vitae purus vel odio suscipit lobortis. Donec interdum finibus egestas. In eleifend ipsum eu lacinia congue. Vestibulum sodales, sapien aliquam </p>
-                                        <img src="img/icon/signature.png" alt="signature">
-                                        <h6>Co-Founder Of Company</h6>
-                                    </div>    
-                                </div> 
-                                <div class="col-12">
-                                    <div class="single-testimonial">
-                                        <i class="zmdi zmdi-quote"></i>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla non mi just. Aliquam vitae purus vel odio suscipit lobortis. Donec interdum finibus egestas. In eleifend ipsum eu lacinia congue. Vestibulum sodales, sapien aliquam </p>
-                                        <img src="img/icon/signature.png" alt="signature">
-                                        <h6>Co-Founder Of Company</h6>
-                                    </div>    
-                                </div> 
-                                <div class="col-12">
-                                    <div class="single-testimonial">
-                                        <i class="zmdi zmdi-quote"></i>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla non mi just. Aliquam vitae purus vel odio suscipit lobortis. Donec interdum finibus egestas. In eleifend ipsum eu lacinia congue. Vestibulum sodales, sapien aliquam </p>
-                                        <img src="img/icon/signature.png" alt="signature">
-                                        <h6>Co-Founder Of Company</h6>
-                                    </div>    
-                                </div>  
-                            </div> 
-                        </div>   
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- Client Area End -->
-        <!-- Start of Map Area -->
-        <div class="map-area">
-            <!-- google-map-area start -->
-            <div class="google-map-area">
-                <!--  Map Section -->
-                <div id="contacts" class="map-area">
-                    <iframe class="contact-map-size"
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d193595.15830869428!2d-74.119763973046!3d40.69766374874431!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2sbd!4v1613802584124!5m2!1sen!2sbd"
-                        allowfullscreen="" loading="lazy">
-                    </iframe>
                 </div>
             </div>
         </div>
-        <!-- End of Map Area -->
-        <!-- Newsletter Area Start -->
-        <section class="newsletter-area bg-gray">
-            <div class="container">
-                <div class="row">
-                    <div class="newsletter-wrapper fix">
-                        <div class="col-lg-10 offset-lg-1">
-                            <div class="newsletter-content section-title text-center">
-                                <h2>subscribe now for latest update!</h2> 
-                                <div class="newsletter-form">
-                                    <form action="#" id="mc-form" class="mc-form fix">
-                                        <input id="mc-email" type="email" name="email" placeholder="Enter Your E-mail ID">
-                                        <button id="mc-submit" type="submit" class="default-btn" data-text="submit"><span>submit</span></button> 
-                                    </form>
-                                    <!-- mailchimp-alerts Start -->
-                                    <div class="mailchimp-alerts">
-                                        <div class="mailchimp-submitting"></div><!-- mailchimp-submitting end -->
-                                        <div class="mailchimp-success"></div><!-- mailchimp-success end -->
-                                        <div class="mailchimp-error"></div><!-- mailchimp-error end -->
-                                    </div>
-                                    <!-- mailchimp-alerts end -->
-                                </div>
-                            </div>
-                        </div>
-                    </div>    
-                </div>
+    </section>
+    <!-- hero_section -->
+
+    <!-- <section class="promo_section padding">
+        <div class="container">
+            <div class="section_heading align-center mb-40">
+                <h2>A solid foundation for health and wellbeing</h2>
+                <p>When we move our bodies, we feel better physically, emotionally, and spiritually. Doing Our Bit gives
+                    you everything you need to work out safely from your own home and it's suitable for all levels of
+                    fitness.</p>
             </div>
-        </section>
-        <!-- Newsletter Area End -->
-        <!-- Footer Area Start -->
-        <footer class="footer-area bg-gray">
-            <div class="footer-widget-area bg-3 pt-98 pb-90 fix">
-                <div class="container">
-                    <div class="row">  
-                        <div class="col-lg-4 col-md-6">
-                            <div class="single-footer-widget">
-                                <a href="index.html"><img src="img/logo/logo.png" alt="handstand"></a>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur a convallis nulla. Ut </p>
-                                <ul>
-                                    <li><i class="zmdi zmdi-email"></i> username@gmail.com</li>
-                                    <li><i class="zmdi zmdi-phone"></i> (+660 256 24857)</li>
-                                    <li><i class="zmdi zmdi-home"></i> Your Address Here</li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6">
-                            <div class="single-footer-widget">
-                                <h3>Recent Tweets</h3>
-                                <div class="single-twitt mb-10">
-                                    <div class="twitt-icon">
-                                        <i class="zmdi zmdi-twitter"></i>
-                                    </div>
-                                    <div class="twitt-content">
-                                        <p>@envato good News for today!! We got  2 psd templete weekly top selling quality template in technology category !!!</p>
-                                   <a href="https://twitter.com/login/">https://twitter.com/login</a>
-                                    </div>
-                                </div>
-                                <div class="single-twitt">
-                                    <div class="twitt-icon">
-                                        <i class="zmdi zmdi-twitter"></i>
-                                    </div>
-                                    <div class="twitt-content">
-                                        <p>@envato good News for today!! We got  2 psd templete weekly top selling quality template in technology category !!!</p>
-                                   <a href="https://twitter.com/login/">https://twitter.com/login</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6">
-                            <div class="single-footer-widget">
-                                <h3>get in touch</h3>
-                                <form id="subscribe-form" action="https://whizthemes.com/mail-php/other/mail.php">
-                                    <div class="row">
-                                        <div class="col-sm-6">
-                                            <input type="text" placeholder="Name" name="con_name">
-                                        </div>
-                                        <div class="col-sm-6">
-                                            <input type="text" placeholder="Email" name="con_email">
-                                        </div>
-                                        <div class="col-sm-12">
-                                            <textarea cols="30" rows="7" name="con_message" placeholder="subject"></textarea>
-                                            <button type="submit">submit</button>
-                                            <p class="subscribe-message"></p>
-                                        </div>
-                                    </div>
-                                </form>
-                            </div>    
-                        </div>
+            <div class="promo_items">
+                <div class="col-md-5 col-xs-7  xs-padding">
+                    <div class="promo_item">
+                        <i class="icon-mobile"></i>
+                        <h3>Fitness</h3>
+                        <p>Flex, tone, stretch and strengthen with expert-level instructors.</p>
+                    </div>
+                </div>
+                <div class="col-md-5 col-xs-7  xs-padding">
+                    <div class="promo_item">
+                        <i class="icon-tools"></i>
+                        <h3>Yoga</h3>
+                        <p>From brand-new beginner to longtime yogi, there's a range of classes for everyone.</p>
+                    </div>
+                </div>
+                <div class="col-md-5 col-xs-7  xs-padding">
+                    <div class="promo_item">
+                        <i class="icon-linegraph"></i>
+                        <h3>Meditation</h3>
+                        <p>The reason meditation is so powerful is that it causes shifts in our awareness.</p>
+                    </div>
+                </div>
+                <div class="col-md-5 col-xs-7  xs-padding">
+                    <div class="promo_item">
+                        <i class="icon-linegraph"></i>
+                        <h3>Mental Health</h3>
+                        <p>Reduce stress, learn how to relax and protect your mental health.</p>
+                    </div>
+                </div>
+                <div class="col-md-5 col-xs-7  xs-padding">
+                    <div class="promo_item">
+                        <i class="icon-linegraph"></i>
+                        <h3>Mental Health</h3>
+                        <p>Reduce stress, learn how to relax and protect your mental health.</p>
                     </div>
                 </div>
             </div>
-            <div class="footer-text-area fix bg-coffee ptb-18">
+        </div>
+    </section>/.promo_section -->
+
+
+    <section id="about" class="about_section padding">
+        <div class="container">
+            <div class="col-md-6">
+                <div class="about_wrap">
+                    <div class="display-table">
+                        <div class="table-cell">
+                            <div class="section_heading align-left mb-30">
+                                <h2>How It Started</h2>
+                                <p>DoingOurBit started as a "passion project" during the Covid-19 pandemic when Julie
+                                    Davis, Deputy Chief Operating Officer at the Clinical Research Network West
+                                    Midlands, wanted to support her 190 colleagues by giving them access to free fitness
+                                    sessions. Her neighbouring Royal Wolverhampton NHS Trust heard about this and wanted
+                                    to share with its 10,000 staff. All of a sudden, Julie needed a bigger platform,
+                                    additional expertise and help.</p>
+
+                                <h2>How It's Going</h2>
+                                <p>Leading fitness industry businesses Active IQ, Study Active and fibodo quickly
+                                    stepped up. Sharing Julie's vision, they helped to create Doing Our Bit which
+                                    launched in June 2020. Today, over 100 NHS trusts have signed up, giving over
+                                    700,000 NHS staff access to the free workouts.</p>
+
+                                <h2>What's Next</h2>
+                                <p>We want to make Doing Our Bit the largest free platform supporting the wellbeing of
+                                    frontline workers in the world. So we need more content, more creators, more
+                                    diversity, more knowledge shared.</p>
+
+                            </div>
+                            <div class="about_inner">
+                                <div class="about_tab">
+                                    <ul class="tab_menu" role="tablist">
+                                        <!-- <li class="active"><a href="#design" aria-controls="design" role="tab" data-toggle="tab">Design</a></li>
+                                         <li><a href="#features" aria-controls="features" role="tab" data-toggle="tab">Features</a></li>
+                                         <li><a href="#demos" aria-controls="demos" role="tab" data-toggle="tab">Demos</a></li>
+                                         <li><a href="#elements" aria-controls="elements" role="tab" data-toggle="tab">Elements</a></li>
+                                         <li><a href="#offers" aria-controls="offers" role="tab" data-toggle="tab">Offers</a></li> -->
+                                    </ul>
+
+                                    <!-- Tab panes -->
+                                    <!-- <div class="tab-content">
+                                        <div role="tabpanel" class="tab-pane fade in active" id="design">
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea ratione
+                                                optio nulla illum, eius dolor maiores, in harum sit quisquam. Quidem
+                                                aliquid assumenda molestiae provident! Lorem ipsum dolor sit amet
+                                                consectetur adipisicing elit.</p>
+                                            <div class="btn_group">
+                                                <a href="#" class="app_btn">Learn More</a>
+                                            </div>
+                                        </div>
+                                        <div role="tabpanel" class="tab-pane fade" id="features">
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea ratione
+                                                optio nulla illum, eius dolor maiores, in harum sit quisquam. Quidem
+                                                aliquid assumenda molestiae provident!</p>
+                                            <div class="btn_group">
+                                                <a href="#" class="app_btn">Learn More</a>
+                                            </div>
+                                        </div>
+                                        <div role="tabpanel" class="tab-pane fade" id="demos">
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea ratione
+                                                optio nulla illum, eius dolor maiores, in harum sit quisquam. Quidem
+                                                aliquid assumenda molestiae provident!</p>
+                                            <div class="btn_group">
+                                                <a href="#" class="app_btn">Learn More</a>
+                                            </div>
+                                        </div>
+                                        <div role="tabpanel" class="tab-pane fade" id="elements">
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea ratione
+                                                optio nulla illum, eius dolor maiores, in harum sit quisquam. Quidem
+                                                aliquid assumenda molestiae provident!</p>
+                                            <div class="btn_group">
+                                                <a href="#" class="app_btn">Learn More</a>
+                                            </div>
+                                        </div>
+                                        <div role="tabpanel" class="tab-pane fade" id="offers">
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea ratione
+                                                optio nulla illum, eius dolor maiores, in harum sit quisquam. Quidem
+                                                aliquid assumenda molestiae provident!</p>
+                                            <div class="btn_group">
+                                                <a href="support.html" class="app_btn">Get Involved</a>
+                                            </div>
+                                        </div>
+                                    </div> -->
+                                    <div class="btn_group">
+                                        <a href="support.html" class="app_btn">Get Involved</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div><!-- About Content -->
+            <div class="col-md-6 hidden-xs">
+                <ul class="moc_items">
+                    <!-- <li class="moc_back_1 wow fadeInRight" data-wow-delay="0.2s">
+                        <img src="img/about-moc-back-1.png" alt="Mockup 1">
+                    </li> -->
+                    <li class="moc_front">
+                        <img src="img/about-moc-front.png" alt="Mockup Front">
+                    </li>
+                    <!-- <li class="moc_back_2 wow fadeInLeft" data-wow-delay="0.2s">
+                        <img src="img/about-moc-back-2.png" alt="Mockup 2">
+                    </li> -->
+                </ul>
+            </div><!-- Mockup Items -->
+        </div>
+    </section><!-- About Section -->
+
+    <section id="feature" class="feature_section padding">
+        <div class="container">
+            <div class="section_heading align-center mb-40">
+                <h2>The Doing Our Bit App</h2>
+                <p>Launching in September everything you need to live a healthier happier life will be at your finger
+                    tips.</p>
+            </div>
+            <div class="feature_wrap">
+                <div class="col-md-4 col-xs-6">
+                    <ul class="feature_list text-right xs-no-padding">
+                        <li class="list_item mb-40 wow fadeInRight" data-wow-delay="0ms" data-wow-duration="800ms">
+                            <i class="icon-mobile"></i>
+                            <h4 class="mb-10">Responsive Design</h4>
+                            <p>Works on any device</p>
+                        </li>
+                        <li class="list_item mb-40 wow fadeInRight" data-wow-delay="200ms" data-wow-duration="800ms">
+                            <i class="icon-browser mb-10"></i>
+                            <h4 class="mb-10">Free Access to All Courses</h4>
+                            <p>100% free for frontline workers</p>
+                        </li>
+                        <li class="list_item wow fadeInRight" data-wow-delay="400ms" data-wow-duration="800ms">
+                            <i class="icon-global"></i>
+                            <h4 class="mb-10">Available Anytime, Anywhere</h4>
+                            <p>Mobile and offline access allows you to learn anywhere anytime</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-4 hidden-sm hidden-xs wow fadeInUp" data-wow-delay="0ms" data-wow-duration="800ms">
+                    <img src="img/feature-moc.png" alt="Service" class="feature_moc">
+                </div>
+                <div class="col-md-4 col-xs-6">
+                    <ul class="feature_list xs-no-padding">
+                        <li class="list_item mb-40 wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="800ms">
+                            <i class="icon-hotairballoon"></i>
+                            <h4 class="mb-10">Simple frendly interface</h4>
+                            <p>So easy to use anyone can take advantage of the </p>
+                        </li>
+                        <li class="list_item mb-40 wow fadeInLeft" data-wow-delay="200ms" data-wow-duration="800ms">
+                            <i class="icon-happy"></i>
+                            <h4 class="mb-10">Learn from qualified professionals</h4>
+                            <p>Enjoy immediate access to our full course library</p>
+                        </li>
+                        <li class="list_item wow fadeInLeft" data-wow-delay="400ms" data-wow-duration="800ms">
+                            <i class="icon-chat"></i>
+                            <h4 class="mb-10">Great community</h4>
+                            <p>Become part of a movement improving the wellbeing of frontline workers</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section><!-- feature-section -->
+
+
+
+
+
+    <section id="screenshots" class="screenshot_section padding">
+        <div class="container">
+            <div class="section_heading mb-40 align-center">
+                <h2>Our Partners</h2>
+                <p>The best partners</p>
+            </div>
+            <ul id="app_carousel" class="app_carousel owl-carousel">
+                <li class="shot_item">
+                    <figure class="screen_thumb">
+                        <img src="img/screen-1.png" alt="App Screenshots">
+                        <figcaption>
+                            <div class="display-table">
+                                <div class="table-cell">
+                                    <a href="img/screen-1.png" class="img_popup"><i class="fa fa-plus"></i></a>
+                                </div>
+                            </div>
+                        </figcaption>
+                    </figure>
+                </li>
+                <li class="shot_item">
+                    <figure class="screen_thumb">
+                        <img src="img/screen-2.png" alt="App Screenshots">
+                        <figcaption>
+                            <div class="display-table">
+                                <div class="table-cell">
+                                    <a href="img/screen-2.png" class="img_popup"><i class="fa fa-plus"></i></a>
+                                </div>
+                            </div>
+                        </figcaption>
+                    </figure>
+                </li>
+                <li class="shot_item">
+                    <figure class="screen_thumb">
+                        <img src="img/screen-3.png" alt="App Screenshots">
+                        <figcaption>
+                            <div class="display-table">
+                                <div class="table-cell">
+                                    <a href="img/screen-3.png" class="img_popup"><i class="fa fa-plus"></i></a>
+                                </div>
+                            </div>
+                        </figcaption>
+                    </figure>
+                </li>
+                <li class="shot_item">
+                    <figure class="screen_thumb">
+                        <img src="img/screen-4.png" alt="App Screenshots">
+                        <figcaption>
+                            <div class="display-table">
+                                <div class="table-cell">
+                                    <a href="img/screen-4.png" class="img_popup"><i class="fa fa-plus"></i></a>
+                                </div>
+                            </div>
+                        </figcaption>
+                    </figure>
+                </li>
+                <li class="shot_item">
+                    <figure class="screen_thumb">
+                        <img src="img/screen-5.png" alt="App Screenshots">
+                        <figcaption>
+                            <div class="display-table">
+                                <div class="table-cell">
+                                    <a href="img/screen-5.png" class="img_popup"><i class="fa fa-plus"></i></a>
+                                </div>
+                            </div>
+                        </figcaption>
+                    </figure>
+                </li>
+                <li class="shot_item">
+                    <figure class="screen_thumb">
+                        <img src="img/screen-2.png" alt="App Screenshots">
+                        <figcaption>
+                            <div class="display-table">
+                                <div class="table-cell">
+                                    <a href="img/screen-2.png" class="img_popup"><i class="fa fa-plus"></i></a>
+                                </div>
+                            </div>
+                        </figcaption>
+                    </figure>
+                </li>
+                <li class="shot_item">
+                    <figure class="screen_thumb">
+                        <img src="img/screen-3.png" alt="App Screenshots">
+                        <figcaption>
+                            <div class="display-table">
+                                <div class="table-cell">
+                                    <a href="img/screen-3.png" class="img_popup"><i class="fa fa-plus"></i></a>
+                                </div>
+                            </div>
+                        </figcaption>
+                    </figure>
+                </li>
+                <li class="shot_item">
+                    <figure class="screen_thumb">
+                        <img src="img/screen-1.png" alt="App Screenshots">
+                        <figcaption>
+                            <div class="display-table">
+                                <div class="table-cell">
+                                    <a href="img/screen-1.png" class="img_popup"><i class="fa fa-plus"></i></a>
+                                </div>
+                            </div>
+                        </figcaption>
+                    </figure>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+
+
+    <section id="download" class="download_section padding">
+        <div class="container">
+            <div class="counter_content">
+                <h3 class="counter">718000</h3>
+                <h4>Total Users Reached</h4>
+                <h5>New App coming September 2022</h5>
+            </div>
+            <ul class="download_content">
+                <li><a href="#"><i class="fa fa-windows"></i></a></li>
+                <li><a href="#"><i class="fa fa-android"></i></a></li>
+                <li><a href="#"><i class="fa fa-apple"></i></a></li>
+            </ul>
+        </div>
+    </section><!-- /.download_section -->
+
+    <section id="testimonial" class="testimonial_section">
+        <div class="container">
+            <ul id="testimonial_carousel" class="testimonial_items owl-carousel">
+                <li class="testimonial_item">
+                    <p>"There are design companies, and then there are user experience design interface design<br>
+                        professional. By far one of the worlds best known brands."</p>
+                    <h4>Anita Tran, IT Solutions.</h4>
+                </li>
+                <li class="testimonial_item">
+                    <p>"There are design companies, and then there are user experience design interface design<br>
+                        professional. By far one of the worlds best known brands."</p>
+                    <h4>Leslie Williamson, Developer.</h4>
+                </li>
+                <li class="testimonial_item">
+                    <p>"There are design companies, and then there are user experience design interface design<br>
+                        professional. By far one of the worlds best known brands."</p>
+                    <h4>Fred Moody, Network Software.</h4>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <!-- /.testimonial_section -->
+
+    <!-- <section id="blog" class="blog_area padding">
+        <div class="container">
+            <div class="row">
+                <div class="section_heading align-center mb-40">
+                    <h2>Recent News</h2>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+                </div>
+            </div> -->
+    <!-- Section Heading -->
+    <!-- <section id="blog" class="blog_area padding">
                 <div class="container">
                     <div class="row">
-                        <div class="col-12">
-                            <div class="footer-text text-center">
-                                <span>Copyright &copy; <a href="https://themeforest.net/user/codecarnival/portfolio">CodeCarnival</a> 2021. All Rights Reserved.</span>
+                    <div class="col-md-4 col-xs-6 sm-padding">
+                        <div class="blog_item wow swing" data-wow-delay="0ms" data-wow-duration="1000ms">
+                            <figure class="post_thumb">
+                                <img src="img/blog-1.jpg" alt="Blog Post">
+                                <div class="span">10 Jan<br>2018</div>
+                                <a href="#" class="blog_title">
+                                    <h3>Appdent app landing page template.</h3>
+                                </a>
+                            </figure>
+                            <div class="post_content">
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                                <a href="#" class="read_more_btn">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-xs-6 sm-padding">
+                        <div class="blog_item wow swing" data-wow-delay="200ms" data-wow-duration="1000ms">
+                            <figure class="post_thumb">
+                                <img src="img/blog-2.jpg" alt="Blog Post">
+                                <div class="span">10 Jan<br>2018</div>
+                                <a href="#" class="blog_title">
+                                    <h3>Appdent app landing page template.</h3>
+                                </a>
+                            </figure>
+                            <div class="post_content">
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                                <a href="#" class="read_more_btn">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-xs-6 sm-padding">
+                        <div class="blog_item wow swing" data-wow-delay="400ms" data-wow-duration="1000ms">
+                            <figure class="post_thumb">
+                                <img src="img/blog-3.jpg" alt="Blog Post">
+                                <div class="span">10 Jan<br>2018</div>
+                                <a href="#" class="blog_title">
+                                    <h3>Appdent app landing page template.</h3>
+                                </a>
+                            </figure>
+                            <div class="post_content">
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                                <a href="#" class="read_more_btn">Read More</a>
                             </div>
                         </div>
                     </div>
                 </div>
+            </div> -->
+    <!-- Blog Post Items -->
+    </div>
+    </section><!--   Blog Section     -->
+
+    <div id="subscribe" class="subscribe_section">
+        <div class="subscribe_wrapper">
+            <div class="container">
+                <div class="subscribe_wrap">
+                    <form action="#" class="subscribe_form">
+                        <input type="email" name="email" id="subs-email" class="form_input"
+                            placeholder="Enter Your Email Address...">
+                        <button type="submit" class="submit">Subscribe</button>
+                        <div class="clearfix"></div>
+                        <div id="subscribe-result">
+                            <p class="subscription-success"></p>
+                            <p class="subscription-error"></p>
+                        </div>
+                    </form>
+                </div><!-- /.subscribe_wrap -->
+                <ul class="social_link">
+                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                </ul><!-- /.social_link -->
             </div>
-        </footer>
-        <!-- Footer Area End -->
-       
-		<!-- All js here -->
-        <script src="js/vendor/jquery-3.6.0.min.js"></script>
-        <script src="js/vendor/jquery-migrate-3.3.2.min.js"></script>
-        <script src="js/bootstrap.bundle.min.js"></script>
-        <script src="js/owl.carousel.min.js"></script>
-        <script src="js/jquery.meanmenu.js"></script>
-        <script src="js/ajax-mail.js"></script>
-        <script src="js/jquery.ajaxchimp.min.js"></script>   		
-        <script src="js/slick.min.js"></script>    
-        <script src="js/imagesloaded.pkgd.min.js"></script>
-        <script src="js/isotope.pkgd.min.js"></script>  
-        <script src="js/jquery.magnific-popup.js"></script>  
-        <script src="js/plugins.js"></script>
-        <script src="js/main.js"></script>
-    </body>
+        </div><!-- /.subscribe_wrapper -->
+    </div><!-- /.footer_top_section -->
+
+    <footer class="footer_section">
+        <div class="container">
+            <div class="col-sm-6 xs-padding">
+                <p class="copyright">&copy; 2022 Doing Our Bit - Website built & powered by fibodo</p>
+            </div>
+            <nav class="col-sm-6 xs-padding">
+                <ul class="footer_menu">
+                    <li><a data-scroll href="#about">About</a></li>
+                    <li><a data-scroll href="#feature">Features</a></li>
+                    <li><a data-scroll href="#screenshots">Partners</a></li>
+                    <li><a data-scroll href="#download">Download</a></li>
+                    <li><a data-scroll href="#testimonial">Reviews</a></li>
+
+                </ul>
+            </nav>
+        </div>
+    </footer><!-- /.footer_section -->
+
+    <a data-scroll href="#header" id="scroll-to-top"><i class="arrow_carrot-up"></i></a>
+
+    <!-- jQuery Lib -->
+    <script src="js/vendor/jquery-1.12.4.min.js"></script>
+    <!-- waypoints js -->
+    <script src="js/vendor/waypoints.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="js/vendor/bootstrap.min.js"></script>
+    <!-- OWL-Carousel JS -->
+    <script src="js/vendor/owl.carousel.min.js"></script>
+    <!-- Smooth Scroll JS -->
+    <script src="js/vendor/smooth-scroll.min.js"></script>
+    <!-- venobox JS -->
+    <script src="js/vendor/venobox.min.js"></script>
+    <!-- Counterup JS -->
+    <script src="js/vendor/jquery.counterup.min.js"></script>
+    <!-- Ajaxchimp JS -->
+    <script src="js/vendor/jquery.ajaxchimp.min.js"></script>
+    <!-- wow JS -->
+    <script src="js/vendor/wow.min.js"></script>
+    <!-- Main JS -->
+    <script src="js/main.js"></script>
+
+</body>
+
 </html>
