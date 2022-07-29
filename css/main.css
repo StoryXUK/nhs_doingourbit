@@ -129,7 +129,7 @@ button{
 }
 /* Helper Class */
 .padding{
-    padding: 80px 0;
+    padding: 40px 0;
 }
 .no-padding{
     padding: 0;
@@ -1154,7 +1154,11 @@ ul.nav > li.active > a{
    Blog Section
    ========================================================================== */
    
-.blog_area{}
+
+   
+.blog_area{
+    background-color: #fff;
+}
 .blog_items{}
 .blog_item{}
 .post_thumb{
@@ -1193,6 +1197,7 @@ ul.nav > li.active > a{
     line-height: 50px;
 }
 .post_content{
+    background-color: #fff;
     padding: 15px;
     border: 1px solid #ddd;
 }
@@ -1805,7 +1810,9 @@ td.pink{background: #FF91B8}
 .blog-content {
   box-shadow: 0 0 4px 4px #F4F4F4;
   float: left;
-  padding: 35px 30px;
+  padding-top: 35px;
+  padding-left: 35px;
+  padding-right: 35;
   margin-top: 20px;
   width: 70%;
 }
