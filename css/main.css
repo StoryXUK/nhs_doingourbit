@@ -2010,3 +2010,46 @@ td.pink{background: #FF91B8}
     margin-bottom: 0;
 }
 
+
+/*----------------------------------------*/
+/*  7. Blog Area
+/*----------------------------------------*/
+.blog-pic{
+    width: 30%;
+    display: inline-block;
+    float: left;
+}
+.single-blog{display: inline-block}
+.blog-content {
+  box-shadow: 0 0 4px 4px #F4F4F4;
+  float: left;
+  padding: 35px 30px;
+  margin-top: 20px;
+  width: 70%;
+}
+.blog-content h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    color: #757575;
+    font-weight: 500;
+    margin-bottom: 12px;
+}
+.blog-content h6{
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    color: #aaaaaa;
+    font-weight: 400;
+    margin-bottom: 15px;  
+}
+.blog-content p{margin-bottom: 15px}
+.blog-content a{
+    color: #757575;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    text-transform: capitalize;
+    -webkit-transition: all 0.5s ease 0s;
+    -o-transition: all 0.5s ease 0s;
+    transition: all 0.5s ease 0s;
+}
+.blog-content a:hover{color: #5FC7AE}
