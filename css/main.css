@@ -253,6 +253,21 @@ body.loaded #preloader{
     color: #333;
 }
 
+.hero_btn_register{
+    margin: auto;
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    line-height: 75px;
+    display: inline-block;
+    padding: 0 25px;
+    border-radius: 30px;
+}
+.hero_btn:hover{
+    background-color: #fff;
+    color: #333;
+}
+
 .nav_btn{
     background-color: #ED8B00;
     border: 1px solid #ED8B00;
@@ -426,6 +441,32 @@ ul.nav > li.active > a{
    ========================================================================== */
 .hero_section{
     background-image: url("../img/hero.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    position: relative;
+    height: 700px;
+    z-index: 1;
+}
+.hero_section:before{
+    /* background: #006ef5;
+    background: -moz-linear-gradient(-45deg, #006ef5 0%, #006ef5 100%);
+    background: -webkit-linear-gradient(-45deg, #006ef5 0%,#006ef5 100%);
+    background: linear-gradient(135deg, #006ef5 0%,#006ef5 100%); */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f98f1c', endColorstr='#f45442',GradientType=1 );
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0.8;
+    z-index: -1;
+}
+
+.hero_section{
+    background-image: url("../img/hero_register.jpg");
     background-position: center center;
     background-repeat: no-repeat;
     -webkit-background-size: cover;
