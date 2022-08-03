@@ -254,18 +254,18 @@ body.loaded #preloader{
 }
 
 .hero_btn_register{
-    margin: auto;
-    background-color: transparent;
-    border: 1px solid #fff;
+    margin-left: 15vw;
+    background-color: #ED8B00;
+    border: 1px solid #ED8B00;
     color: #fff;
-    line-height: 75px;
+    line-height: 50px;
     display: inline-block;
     padding: 0 25px;
     border-radius: 30px;
 }
 .hero_btn:hover{
-    background-color: #fff;
-    color: #333;
+    background-color: #ED8B00;
+    color: #fff;
 }
 
 .nav_btn{
@@ -465,7 +465,7 @@ ul.nav > li.active > a{
     z-index: -1;
 }
 
-.hero_section{
+.hero_section_register{
     background-image: url("../img/hero_register.jpg");
     background-position: center center;
     background-repeat: no-repeat;
@@ -475,7 +475,7 @@ ul.nav > li.active > a{
     height: 700px;
     z-index: 1;
 }
-.hero_section:before{
+.hero_section_register:before{
     /* background: #006ef5;
     background: -moz-linear-gradient(-45deg, #006ef5 0%, #006ef5 100%);
     background: -webkit-linear-gradient(-45deg, #006ef5 0%,#006ef5 100%);
