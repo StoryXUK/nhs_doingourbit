@@ -254,7 +254,7 @@ body.loaded #preloader{
 }
 
 .hero_btn_register{
-    margin-left: 15vw;
+    margin-left: 12vw;
     background-color: #ED8B00;
     border: 1px solid #ED8B00;
     color: #fff;
@@ -786,7 +786,7 @@ ul.nav > li.active > a{
     float: left;
 }
 .tab_menu li a{
-    background-color: #f77030;
+    background-color: #005EB8;
     display: block;
     padding: 0 15px;
     font-size: 12px;
