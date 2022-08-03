@@ -2113,3 +2113,14 @@ td.pink{background: #FF91B8}
     transition: all 0.5s ease 0s;
 }
 .blog-content a:hover{color: #5FC7AE}
+
+
+
+.blog{
+    padding: 150px;
+}
+
+.blog li{
+    margin-left: 25px;
+    list-style-type: disc;
+}
