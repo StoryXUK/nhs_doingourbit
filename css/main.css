@@ -2176,3 +2176,116 @@ td.pink{background: #FF91B8}
     margin-left: 25px;
     list-style-type: disc;
 }
+
+/*=======================================================
+      Footer Up
+========================================================*/
+.footer-up {
+	min-height: 300px;
+    background: #3c3c3c;
+}
+
+.footer-up .col-sm-3 {
+	text-align: left;
+	padding: 0px;
+	background: #3c3c3c;
+}
+.footer-up .work {
+	padding: 50px;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	min-height: 200px;
+	background: #3c3c3c;
+	text-transform: uppercase;
+}
+
+.footer-up .work-email {
+	padding: 50px;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	min-height: 200px;
+	background: #3c3c3c;
+	
+	
+}
+.footer-up .work-email h5 {
+	color: white;
+}
+.footer-up .contact {
+	padding: 50px;
+	padding-top: 80px;
+	padding-bottom: 10px;
+	min-height: 200px;
+	background: #3c3c3c;;
+}
+.footer-up img {
+	padding: 50px;
+	min-height: 200px;
+	background: #3c3c3c;
+}
+.footer-up i {
+	font-size: 20px;
+	color: #fff;
+}
+.footer-up p {
+	color: #fff;
+	letter-spacing: 2.5px;
+}
+.footer-up a {
+	font-size: 14px;
+	color: #fff;
+	letter-spacing: 2.5px;
+	text-transform: capitalize;
+}
+
+.footer-up a:hover {
+
+	color: #FF5757;
+	
+}
+.footer-up .social_icons {
+	margin-bottom: 20px;
+}
+.footer-up .social_icons li {
+	float: none;
+}
+.footer-up .social_icons li a {
+	color: #fff;
+	font-size: 14px;
+	line-height: 38px;
+}
+.footer-up .social_icons li a i {
+	font-size: 14px;
+}
+/*=======================================================
+      FOOTER
+========================================================*/
+#footer {
+	
+	padding-top: 20px;
+	text-align: center;
+	font-family: 'Arial', sans-serif;
+}
+#footer img {
+	margin-bottom: 20px;
+}
+#footer p {
+	color: #343434;
+	font-size: 14px;
+	margin-top: 10px;
+}
+#footer .social_icons {
+	margin-top: 40px;
+}
+#footer .social_icons li {
+	float: none;
+}
+#footer .social_icons li a {
+	color: #fff;
+	line-height: 38px;
+}
+#footer-rights {
+	margin-top: 50px;
+	padding: 15px 0;
+	background: #252525;
+}
