@@ -171,6 +171,8 @@ button{
 }
 .align-center{
     text-align: center;
+    max-width: 600px;
+    margin: auto;
 }
 .fl-right{
     float: right;
@@ -783,6 +785,7 @@ ul.nav > li.active > a{
     display: flex;
 }
 .tab_menu li{
+    margin: 10px;
     float: left;
 }
 .tab_menu li a{
@@ -2206,8 +2209,21 @@ td.pink{background: #FF91B8}
 	min-height: 200px;
 	background: #3c3c3c;
     text-transform: lowercase;
+		
+}
+.footer-up .work-email a {
+	padding-top: 20px;
+	padding-bottom: 10px;
+	min-height: 100px;
+	background: #3c3c3c;
+    text-transform: lowercase;
+		
+}
+.footer-up .work-email p {
 	
-	
+	background: #3c3c3c;
+    text-transform: none;
+		
 }
 
 
@@ -2291,4 +2307,17 @@ td.pink{background: #FF91B8}
 	margin-top: 50px;
 	padding: 15px 0;
 	background: #252525;
+}
+
+.footer-logo {
+    max-height: 300px;
+    max-width: auto;
+    object-fit: contain;
+}
+
+.footer-logo img {
+    height: 300px;
+    width: auto;
+    object-fit: contain;
+    margin: auto;
 }
