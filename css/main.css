@@ -2205,9 +2205,12 @@ td.pink{background: #FF91B8}
 	padding-bottom: 10px;
 	min-height: 200px;
 	background: #3c3c3c;
+    text-transform: lowercase;
 	
 	
 }
+
+
 .footer-up .work-email h5 {
 	color: white;
 }
