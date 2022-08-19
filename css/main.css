@@ -837,6 +837,43 @@ ul.nav > li.active > a{
     right: 60px;
 }
 
+
+/* Mental Pages Navigation */
+
+.middle {
+    margin: auto;
+}
+
+.mental_tab_menu{
+    display: flex;
+}
+.mental_tab_menu li{
+    margin: 10px;
+    float: left;
+}
+.mental_tab_menu li a{
+    background-color: #005EB8;
+    border-radius: 5%;
+    display: block;
+    padding: 0 15px;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #fff;
+    line-height: 10px;
+}
+.mental_tab_menu li a:hover,
+.mental_tab_menu li.active a{
+    background-color: #ff8247;
+    color: #fff;
+}
+.mental_tab-content{}
+.tab-content .tab-pane{
+    padding: 25px 25px 25px 0;
+}
+.mental_tab-content .tab-pane p{
+    margin-bottom: 30px;
+}
+
 /* ==========================================================================
    Documentation Section
    ========================================================================== */
