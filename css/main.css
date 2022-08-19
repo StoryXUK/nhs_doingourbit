@@ -845,21 +845,22 @@ ul.nav > li.active > a{
 }
 
 .mental_tab_menu{
+    background-color: white;
     display: flex;
 }
 .mental_tab_menu li{
-    margin: 10px;
+    padding: 20px;
     float: left;
 }
 .mental_tab_menu li a{
     background-color: #005EB8;
     border-radius: 5%;
     display: block;
-    padding: 0 15px;
-    font-size: 12px;
+    padding: 0 5px;
+    font-size: 15px;
     text-transform: uppercase;
     color: #fff;
-    line-height: 10px;
+    line-height: 22px;
 }
 .mental_tab_menu li a:hover,
 .mental_tab_menu li.active a{
