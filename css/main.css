@@ -1,5 +1,5 @@
 /*
-    Appdent By WowThemez
+    NHS #DoingOurBit
 */
 
 /*  ==========================================================================
@@ -792,6 +792,7 @@ ul.nav > li.active > a{
 .tab_menu li{
     margin: 10px;
     float: left;
+    min-width: 175px;
 }
 .tab_menu li a{
     background-color: #005EB8;
