@@ -1032,11 +1032,15 @@ ul.nav > li.active > a{
     position: relative;
     padding: 150px 0;
     z-index: 1;
+    
 }
 
 
 .video_content{
     color: #fff;
+    margin: auto;
+    max-width: 600px;
+    line-height: 75px;
 }
 .video_content a{
     background-color: #fff;
@@ -1054,14 +1058,20 @@ ul.nav > li.active > a{
     box-shadow: 0px 16px 28px 0px rgba(0, 0, 0, 0.24);
 }
 .video_content span{
-    display: inline-block;
+    margin: auto;
+    
     font-family: 'Poppins', sans-serif;
     text-transform: uppercase;
     font-size: 24px;
     font-weight: 700;
-    text-align: left;
+    text-align: center;
 }
 
+.video_content h2{
+    color: white;
+    margin: auto;
+
+}
 /* ==========================================================================
    Pricing Section
    ========================================================================== */
