@@ -500,7 +500,7 @@ ul.nav > li.active > a{
 }
 
 .hero_section2{
-    background-image: url("../img/hero2.jpg");
+    background-image: url("../img/hero-works.jpg");
     background-position: center center;
     background-repeat: no-repeat;
     -webkit-background-size: cover;
@@ -577,7 +577,7 @@ ul.nav > li.active > a{
 }
 
 .hero_section5{
-    background-image: url("../img/hero5.jpg");
+    background-image: url("../img/group-contact.jpg");
     background-position: center center;
     background-repeat: no-repeat;
     -webkit-background-size: cover;
