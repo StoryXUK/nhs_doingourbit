@@ -4688,6 +4688,18 @@ ul.nav > li.active > a{
     z-index: 1;
 }
 
+.video_section_works{
+    background-image: url("../img/video-bg.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    background-size: cover;
+    position: relative;
+    padding: 150px 0;
+    z-index: 1;
+}
+
 .video_section:before{
     background: #129ca6;
     background: -moz-linear-gradient(-45deg, #005EB8 0%, #005EB8 100%);
