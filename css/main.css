@@ -880,26 +880,29 @@ ul.nav > li.active > a{
 }
 
 .mental_tab_menu{
-    background-color: white;
+    background-color: transparent;
     display: flex;
 }
 .mental_tab_menu li{
-    padding: 20px;
+    padding: 30px;
     float: left;
+    min-width: 200px;
 }
 .mental_tab_menu li a{
-    background-color: #005EB8;
+    background-color: #ff8247;
     border-radius: 5%;
     display: block;
-    padding: 0 5px;
-    font-size: 15px;
+    padding: 20px;
+    font-size: 20px;
     text-transform: uppercase;
-    color: #fff;
+    color: white;
     line-height: 22px;
+    text-align: center;
+    
 }
 .mental_tab_menu li a:hover,
 .mental_tab_menu li.active a{
-    background-color: #ff8247;
+    background-color: #41B6E6;
     color: #fff;
 }
 .mental_tab-content{}
