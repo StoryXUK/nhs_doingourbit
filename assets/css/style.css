@@ -5153,3 +5153,13 @@ ul.nav > li.active > a{
     color: #fff;
 }
 
+
+/* Modal Pop Up */
+
+.modal-content {
+    margin: 100px;
+}
+
+.modal-dialog {
+    padding: 100px;
+}
