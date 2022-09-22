@@ -49,6 +49,7 @@
         font-size: 12px;
         line-height: 18px;
     }
+    .mobile-remove {display: none;}
 }
 /* ---- End of max-width 992px CSS ---- */
 
@@ -148,7 +149,7 @@
     .footer_menu{
         text-align: center;
     }
-    .mobile-remove {display: none;}
+    
 }
 img {
     max-width: 100%;
