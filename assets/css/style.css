@@ -1,8 +1,7 @@
 /*------------------------------------------------------------------
 [Master Stylesheet]
 
-Project: Vinero
-Version: 1.0
+
 
 -------------------------------------------------------------------*/
 @import url("https://fonts.googleapis.com/css?family=Amiri:400,400i|Source+Sans+Pro:400,400i,600,700");
@@ -5155,6 +5154,7 @@ ul.nav > li.active > a{
 
 
 /* Modal Pop Up */
+.modal {padding: 150px}
 
 .modal-content {
     margin: 100px;
@@ -5162,4 +5162,8 @@ ul.nav > li.active > a{
 
 .modal-dialog {
     padding: 100px;
+}
+
+.modal-para {
+    margin: 100px;
 }
