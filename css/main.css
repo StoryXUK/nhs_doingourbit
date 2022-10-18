@@ -1359,6 +1359,7 @@ ul.nav > li.active > a{
     background-color: #fff;
     padding: 15px;
     border: 1px solid #ddd;
+    min-height: 230px;
 }
 .post_content .read_more_btn{
     display: inline-block;
