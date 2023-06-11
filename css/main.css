@@ -2737,3 +2737,53 @@ td.pink{background: #FF91B8}
  .dropdown-content a:hover {
    background-color: #dcdcdc;
  }
+
+
+ .carousel-container {
+    width: 400px;
+    height: 300px;
+    position: relative;
+    margin: auto;
+}
+
+.carousel-item {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: none;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.carousel-item.active {
+    display: block;
+}
+
+.carousel-indicators {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carousel-indicators button {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    border: none;
+    background-color: #bbb;
+    margin: 0 6px;
+    padding: 0;
+    cursor: pointer;
+}
+
+.carousel-indicators button.active {
+    background-color: #555;
+}

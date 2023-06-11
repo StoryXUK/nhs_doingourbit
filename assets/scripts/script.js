@@ -715,3 +715,34 @@ jQuery.noConflict()(function($) {
 		});
 	}
 });
+
+
+
+
+var carouselItems = document.querySelectorAll('.carousel-item');
+var carouselIndicators = document.querySelectorAll('.carousel-indicators button');
+
+var currentIndex = 0;
+var interval;
+
+function showItem(index) {
+	carouselItems.forEach(function(item) {
+		item.classList.remove('active');
+	});
+
+	carouselIndicators.forEach(function(indicator) {
+		indicator.classList.remove('active');
+	});
+
+	carouselItems[index].classList.add('active');
+	carouselIndicators[index].classList.add('active');
+}
+
+function startCarousel() {
+	interval = setInterval(function() {
+		currentIndex = (currentIndex + 1) % carouselItems.length;
+		showItem(currentIndex);
+	}, 2000);
+}
+
+startCarousel();
