@@ -279,18 +279,9 @@ body.loaded #preloader{
 }
 
 .nav_btn{
-    background-color: #ED8B00;
-    border: 1px solid #ED8B00;
-    color: #fff;
-    min-width: 100px;
-    line-height: 50px;
-    display: inline-block;
-    padding: 0 25px;
-    border-radius: 30px;
-    margin: 5px; 
-    border-width: 2px;
-    width: 85px;
-    text-align: center;
+   
+    
+    text-align: right;
 
 }
 .nav_btn:hover{
@@ -343,7 +334,7 @@ a,a:hover, .overlay, img, .form-control,  .form-control:hover, button{
    Header Section
    ========================================================================== */
 .header_section{
-    background-color: #005EB8;
+    background-color: transparent;
     width: 100%;
     height: 100px;
     z-index: 999;
@@ -2787,3 +2778,29 @@ td.pink{background: #FF91B8}
 .carousel-indicators button.active {
     background-color: #555;
 }
+
+
+.image-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .image-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    text-align: center;
+    color: white;
+  }
+  
+  .image-overlay h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .image-overlay p {
+    font-size: 16px;
+  }
