@@ -221,7 +221,7 @@ button{
     top: 0;
     left: 0;
     z-index: 9999;
-    background: #fff;
+    background: #005EB8;
     height: 100%;
     width: 100%;
     -webkit-transition: all .5s .5s ease;
@@ -230,14 +230,14 @@ button{
 }
 .loader{
     position:absolute;
-    top: 50%;
+    top: 30%;
     left: 0;
     right: 0;
-    width: 60px;
-    height: 60px;
+    width: 260px;
+    height: 260px;
     display: block;
     margin: auto;
-    margin-top: -30px;
+    
 }
 body.loaded #preloader{
     opacity: 0;
