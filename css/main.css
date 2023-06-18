@@ -2378,20 +2378,20 @@ td.pink{background: #FF91B8}
 ========================================================*/
 .footer-up {
 	min-height: 300px;
-    background: #3c3c3c;
+    background: #1d1d1d;
 }
 
 .footer-up .col-sm-3 {
 	text-align: left;
 	padding: 0px;
-	background: #3c3c3c;
+	background: #1d1d1d;
 }
 .footer-up .work {
 	padding: 50px;
 	padding-top: 20px;
 	padding-bottom: 10px;
 	min-height: 200px;
-	background: #3c3c3c;
+	background: #1d1d1d;
 	text-transform: uppercase;
 }
 
@@ -2400,7 +2400,7 @@ td.pink{background: #FF91B8}
 	padding-top: 20px;
 	padding-bottom: 10px;
 	min-height: 200px;
-	background: #3c3c3c;
+	background: #1d1d1d;
     text-transform: lowercase;
 		
 }
@@ -2408,13 +2408,13 @@ td.pink{background: #FF91B8}
 	padding-top: 20px;
 	padding-bottom: 10px;
 	min-height: 100px;
-	background: #3c3c3c;
+	background: #1d1d1d;
     text-transform: lowercase;
 		
 }
 .footer-up .work-email p {
 	
-	background: #3c3c3c;
+	background: #1d1d1d;
     text-transform: none;
 		
 }
@@ -2428,12 +2428,12 @@ td.pink{background: #FF91B8}
 	padding-top: 80px;
 	padding-bottom: 10px;
 	min-height: 200px;
-	background: #3c3c3c;;
+	background: #1d1d1d;
 }
 .footer-up img {
 	padding: 50px;
 	min-height: 200px;
-	background: #3c3c3c;
+	background: #1d1d1d;
 }
 .footer-up i {
 	font-size: 20px;
