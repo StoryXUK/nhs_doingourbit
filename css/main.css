@@ -766,7 +766,7 @@ ul.nav > li.active > a{
 }
 
 .hero_section_partners{
-    background-image: url("../img/partners-hero.jpg");
+    background-image: url("../img/partners/night-sky.jpg");
     background-position: center center;
     background-repeat: no-repeat;
     -webkit-background-size: cover;
@@ -793,7 +793,7 @@ ul.nav > li.active > a{
 
 
 .hero_section_founding_partners{
-    background-image: url("../img/downward-dog.jpg");
+    background-image: url("../img/partners/night-sky.jpg");
     background-position: center center;
     background-repeat: no-repeat;
     -webkit-background-size: cover;
