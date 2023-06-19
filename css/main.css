@@ -93,6 +93,12 @@ ul{
     padding: 0;
     margin: 0;
 }
+
+.bullet{
+    
+    list-style: disc;
+    
+}
 p, li, a, span{}
 p{
     font-size: 16px;
@@ -1494,10 +1500,10 @@ bottom:   25px;
    Subscribe Section
    ========================================================================== */
 .subscribe_section{
-    background: #005EB8;
-    background: -moz-linear-gradient(-45deg, #005EB8 0%, #005EB8 100%);
-    background: -webkit-linear-gradient(-45deg, #005EB8 0%, #005EB8 100%);
-    background: linear-gradient(135deg, #005EB8 0%,#005EB8 100%);
+    background: #1d1d1d;
+    background: -moz-linear-gradient(-45deg, #1d1d1d 0%, #1d1d1d 100%);
+    background: -webkit-linear-gradient(-45deg, #1d1d1d 0%, #1d1d1d 100%);
+    background: linear-gradient(135deg, #1d1d1d 0%,#1d1d1d 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f98f1c', endColorstr='#f45442',GradientType=1 );
     content: '';
     padding: 50px 0;
