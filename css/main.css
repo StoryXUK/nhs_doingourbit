@@ -2873,3 +2873,9 @@ td.pink{background: #FF91B8}
 
 
   .pb-10 {padding-bottom: 10px;}
+
+  .text-centered {
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+}
