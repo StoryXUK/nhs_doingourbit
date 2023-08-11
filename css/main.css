@@ -478,6 +478,18 @@ ul.nav > li.active > a{
     z-index: -1;
 }
 
+.hero-carousel {
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+    height: 700px;
+}
+
+.hero-slide {
+    flex: 0 0 100%;
+    transition: transform 0.5s ease-in-out;
+}
+
 .hero_section_sup_pack{
     background-image: url("../img/support_pack.jpg");
     background-position: center center;
