@@ -658,7 +658,7 @@ ul.nav > li.active > a{
 }
 
 .hero_section5{
-    background-image: url("../img/group-contact.jpg");
+    background-image: url("../img/contact.jpg");
     background-position: center center;
     background-repeat: no-repeat;
     -webkit-background-size: cover;
@@ -815,7 +815,7 @@ ul.nav > li.active > a{
 }
 
 .hero_section_partners{
-    background-image: url("../img/partners/night-sky.jpg");
+    background-image: url("../img/partners/partners.jpg");
     background-position: center center;
     background-repeat: no-repeat;
     -webkit-background-size: cover;
@@ -825,6 +825,33 @@ ul.nav > li.active > a{
     z-index: 1;
 }
 .hero_section_partners:before{
+    /* background: #006ef5;
+    background: -moz-linear-gradient(-45deg, #006ef5 0%, #006ef5 100%);
+    background: -webkit-linear-gradient(-45deg, #006ef5 0%,#006ef5 100%);
+    background: linear-gradient(135deg, #006ef5 0%,#006ef5 100%); */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f98f1c', endColorstr='#f45442',GradientType=1 );
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0.8;
+    z-index: -1;
+}
+
+
+.hero_section_sponsors{
+    background-image: url("../img/partners/sponsors.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    position: relative;
+    height: 700px;
+    z-index: 1;
+}
+.hero_section_sponsors:before{
     /* background: #006ef5;
     background: -moz-linear-gradient(-45deg, #006ef5 0%, #006ef5 100%);
     background: -webkit-linear-gradient(-45deg, #006ef5 0%,#006ef5 100%);
